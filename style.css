@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ACE0F9;
+    font-family: "Roboto", "Arial";
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+    background-color: #fff;
+    margin: 60px 140px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 27px;
+    color: #3E2093;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card {
+    text-align: center;
+    width: 240px;
+}
+
+.picthers {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-bottom: 5px;
+
+}
+
+.nav__navigathion {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.nav_text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #AFAFB6;
+}
+
+.nav_text {
+    text-decoration: none;
+}
+
+.form__input,
+.form__textarea {
+    padding: 15px 20px;
+    background-color: #F0F1F8;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.form__input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AFAFB6;
+}
+
+.form__label {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #AFAFB6;
+    margin-bottom: 20px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+.form {
+    width: 100%;
+}
+
+.form__textarea {
+    margin-bottom: 0;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #3E2093;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px auto 0 auto;
+}
